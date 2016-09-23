@@ -1,0 +1,31 @@
+{
+    "name": "open-docs",
+    "version": "0.1.0",
+    "homepage": "https://www.zhutibang.cn",
+    "description": "Library and cmd utility to generate GitBooks",
+    "dependencies": {
+
+    },
+    "devDependencies": {
+
+    },
+    "scripts": {},
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Zhutibang/open-docs.git"
+    },
+    "keywords": [
+        "git",
+        "book",
+        "gitbook"
+    ],
+    "author": "zhlhuang",
+    "license": "Apache-2.0",
+    "bugs": {
+        "url": "https://github.com/zhutibang/open-docs/issues"
+    },
+    "contributors": [{
+        "name": "zhlhuang",
+        "email": "zhlhuang888@foxmail.com"
+    }]
+}
