@@ -33,7 +33,7 @@ $sign = md5($app_id . $time . $secret_key); //wx61e8fa01dafe1d7a1472887663XXXX
 
 $req_url = $url . "&time={$time}&sign={$sign}"
 // => "/api/qrcode_api/getQrcode.html?app_id=wx61e8fa01dafe1d7a&scene_id=1&time=1472887663&sign=0e4ddb0b1a44272972c5d820eb77134f"
-````
+```
 
 这样是一个完整的调用，如果平台向加强求情的安全性，可以对时间戳进行 限制。例子：先验证签名sign，然后根据timestamp来控制该签名的时效性，如约定超过10秒后的sign是无效的。
 
