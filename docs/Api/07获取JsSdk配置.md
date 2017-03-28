@@ -40,5 +40,6 @@ url | string|是|调用jssdk的网页地址，location.href 获取|
 ---|---|---
 jsApiList | array|根据自身所需的业务逻辑添加
 
+* [错误格式](/Api/01Api错误返回.html)
 
 
